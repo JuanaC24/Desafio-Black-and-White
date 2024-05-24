@@ -1,0 +1,49 @@
+/* Estilos básicos */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Orientación vertical de los elementos */
+    align-items: center; /* Alineación horizontal */
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    width: 100%; /* Ancho completo */
+    text-align: center; /* Centrado del texto */
+    margin-top: 20px; /* Espacio en la parte superior */
+}
+
+.container {
+    flex: 1; /* Toma el espacio disponible restante */
+    display: flex; /* Habilita flexbox para este contenedor */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+form {
+    width: 300px; /* Ancho del formulario */
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px; /* Espaciado superior */
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+button {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: grey;
+}
+ 
